@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "VWEFT_Gun_RepeatingShotgun"]/statBases/AccuracyTouch</xpath>
+        <value>
+            <AccuracyTouch>0.80</AccuracyTouch>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "VWEFT_Gun_RepeatingShotgun"]/statBases/AccuracyShort</xpath>
+        <value>
+            <AccuracyShort>0.87</AccuracyShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "VWEFT_Gun_RepeatingShotgun"]/statBases/AccuracyMedium</xpath>
+        <value>
+            <AccuracyMedium>0.77</AccuracyMedium>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "VWEFT_Gun_RepeatingShotgun"]/statBases/AccuracyLong</xpath>
+        <value>
+            <AccuracyLong>0.64</AccuracyLong>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "VWEFT_Gun_RepeatingShotgun"]/statBases/RangedWeapon_Cooldown</xpath>
+        <value>
+            <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "VWEFT_Bullet_RepeatingShotgun"]/projectile/armorPenetrationBase</xpath>
+        <value>
+            <armorPenetrationBase>0.14</armorPenetrationBase>
+        </value>
+    </Operation>
+</Patch>
