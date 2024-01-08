@@ -8,6 +8,8 @@
         <li>1.4</li>
     </supportedVersions>
 
+    <url>https://github.com/makentake/Frontier-Weapon-s-Rebalance/tree/master</url>
+
     <modDependencies>
         <li>
             <packageId>vanillaexpanded.vweft</packageId>
